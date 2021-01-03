@@ -336,6 +336,15 @@
 
                             <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">transaksi</div>
                             <ul class="pcoded-item pcoded-left-item">
+
+                                <li>
+                                    <a href="<?= base_url("transaksi") ?>">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.form-components.main">Transaksi</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+
                                 <li>
                                     <a href="chart.html">
                                         <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>

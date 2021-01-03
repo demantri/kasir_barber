@@ -65,6 +65,9 @@ $route['kategori/edit/(:any)'] = 'master-data/kategori/edit/$1';
 $route['kategori/update'] = 'master-data/kategori/update';
 $route['kategori/delete/(:any)'] = 'master-data/kategori/delete/$1';
 
+// transaksi
+$route['transaksi'] = 'transaksi/pembayaran';
+$route['pembayaran/add'] = 'transaksi/pembayaran/add';
 
 
 
